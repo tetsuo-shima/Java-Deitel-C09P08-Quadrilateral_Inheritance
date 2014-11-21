@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7912b68-7cb7-4ae7-8ffb-f21e82329d9d" name="Default" comment="Moved more methods into Quadrilateral class&#10;">
+    <list default="true" id="f7912b68-7cb7-4ae7-8ffb-f21e82329d9d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuadDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuadrilateralTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Quadrilateral.java" afterPath="$PROJECT_DIR$/src/Quadrilateral.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Trapezoid.java" afterPath="$PROJECT_DIR$/src/Trapezoid.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java-Deitel-C09P08-Quadrilateral_Inheritance.iws" />
@@ -81,21 +81,35 @@
       <file leaf-file-name="RationalNumber.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RationalNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="67" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="855">
+            <state line="40" column="67" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quadrilateral.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Quadrilateral.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Quadrilateral.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="1500">
-              <folding>
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-                <element signature="e#1570#1577#0" expanded="true" />
-              </folding>
+            <state line="23" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="0.21359223" vertical-offset="235" max-vertical-offset="1425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuadDemo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/QuadDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="108" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuadrilateralTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/QuadrilateralTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="80" selection-start="128" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -109,7 +123,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trapezoid.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Trapezoid.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Trapezoid.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
@@ -121,7 +135,7 @@
       <file leaf-file-name="PointTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PointTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="5" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+            <state line="21" column="9" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
@@ -144,15 +158,17 @@
         <option value="$PROJECT_DIR$/src/PointTest.java" />
         <option value="$PROJECT_DIR$/src/RationalNumber.java" />
         <option value="$PROJECT_DIR$/src/LineSegment.java" />
-        <option value="$PROJECT_DIR$/src/Quadrilateral.java" />
         <option value="$PROJECT_DIR$/src/Trapezoid.java" />
+        <option value="$PROJECT_DIR$/src/QuadrilateralTest.java" />
+        <option value="$PROJECT_DIR$/src/Quadrilateral.java" />
+        <option value="$PROJECT_DIR$/src/QuadDemo.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1600" />
-    <option name="height" value="876" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -180,8 +196,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,6 +230,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,10 +245,17 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -242,7 +265,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PointTest">
+  <component name="RunManager" selected="Application.QuadDemo">
     <configuration default="false" name="PointTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-Deitel-C09P08-Quadrilateral_Inheritance" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -261,6 +284,44 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="QuadrilateralTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-Deitel-C09P08-Quadrilateral_Inheritance" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QuadrilateralTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="QuadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuadDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java-Deitel-C09P08-Quadrilateral_Inheritance" />
+      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -392,12 +453,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.PointTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.QuadrilateralTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.QuadDemo" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PointTest" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.QuadDemo" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.QuadrilateralTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PointTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -429,22 +494,27 @@
       <created>1416440181476</created>
       <updated>1416440181476</updated>
     </task>
+    <task id="LOCAL-00001" summary="Moved more methods into Quadrilateral class&#10;">
+      <created>1416545717595</created>
+      <updated>1416545717596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1600" height="876" extended-state="6" />
+    <frame x="0" y="-4" width="1600" height="904" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32920793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32920793" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -499,12 +569,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Quadrilateral.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LineSegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="59" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Trapezoid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="5" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="5" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RationalNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="67" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Quadrilateral.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="23" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1080">
-          <folding>
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1570#1577#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -546,11 +654,7 @@
     <entry file="file://$PROJECT_DIR$/src/Quadrilateral.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="23" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="1080">
-          <folding>
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1570#1577#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -575,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RationalNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="67" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
@@ -589,20 +686,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Quadrilateral.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="1500">
-          <folding>
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1570#1577#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Trapezoid.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="9" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuadrilateralTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="80" selection-start="128" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuadDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="108" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Quadrilateral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="722" selection-end="722" vertical-scroll-proportion="0.21359223" vertical-offset="235" max-vertical-offset="1425">
           <folding />
         </state>
       </provider>

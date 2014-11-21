@@ -3,7 +3,7 @@ import java.util.LinkedList;
 /**
  * Created by dwight on 11/19/14.
  */
-public abstract class Quadrilateral {
+public class Quadrilateral {
     private Point point1;
     private Point point2;
     private Point point3;
@@ -44,7 +44,7 @@ public abstract class Quadrilateral {
         return quad;
     }
 
-    public abstract double getArea();
+    //public double getArea();
 
     public double getPerimeter() {
         double segment1 = getDistance(quad.get(0), quad.get(1));
@@ -59,23 +59,20 @@ public abstract class Quadrilateral {
         LinkedList<Point> points = new LinkedList<Point>();
         double currentDistance;
         double newDistance;
-        Point candidate;
 
         points.add(A);
         points.add(B);
         points.add(C);
         points.add(D);
 
-        for (int x = 0; x < points.size() - 1; x++) {
+        for (int x = 0; x < points.size() - 2; x++) {
             Point start = points.get(x);
-            Point end = points.get(x + 1);
-            for (int y = 2; y < points.size(); y++) {
-                currentDistance = getDistance(start, end);
-                newDistance = getDistance(start, points.get(y));
+            for (int y = x + 1; y < points.size() - 1; y++) {
+                currentDistance = getDistance(start, points.get(y));
+                newDistance = getDistance(start, points.get(y + 1));
 
                 if (newDistance < currentDistance) {
-                    candidate = points.remove(y);
-                    points.add(x + 1, candidate);
+                    points.add(x + 1, points.remove(y + 1));
                 }
             }
         }
@@ -83,7 +80,7 @@ public abstract class Quadrilateral {
         return points;
     }
 
-    private double getDistance(Point pointA, Point pointB) {
+    public double getDistance(Point pointA, Point pointB) {
         double distanceX = pointA.getX() - pointB.getX();
         double distanceY = pointA.getY() - pointB.getY();
 
