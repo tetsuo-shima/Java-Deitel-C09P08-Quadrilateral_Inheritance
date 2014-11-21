@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7912b68-7cb7-4ae7-8ffb-f21e82329d9d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuadDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/QuadrilateralTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Quadrilateral.java" afterPath="$PROJECT_DIR$/src/Quadrilateral.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java-Deitel-C09P08-Quadrilateral_Inheritance.iws" />
@@ -498,7 +495,11 @@
       <created>1416545717595</created>
       <updated>1416545717596</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Corrected Quadrilateral linked list builder&#10;">
+      <created>1416577070442</created>
+      <updated>1416577070442</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -543,7 +544,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Moved more methods into Quadrilateral class&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved more methods into Quadrilateral class&#10;" />
+    <MESSAGE value="Corrected Quadrilateral linked list builder&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected Quadrilateral linked list builder&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
