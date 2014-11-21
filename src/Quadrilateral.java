@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 /**
  * Created by dwight on 11/19/14.
  */
@@ -6,16 +8,20 @@ public abstract class Quadrilateral {
     private Point point2;
     private Point point3;
     private Point point4;
+    private LinkedList<Point> quad;
 
-    public Quadrilateral() {
-        this(new Point(), new Point(), new Point(), new Point());
+    public Quadrilateral(Quadrilateral quadrilateral) {
+        this(quadrilateral.getPoint1(), quadrilateral.getPoint2(), quadrilateral.getPoint3(),
+                quadrilateral.getPoint4());
     }
 
     public Quadrilateral(Point point1, Point point2, Point point3, Point point4) {
-        this.point1 = point1;
-        this.point2 = point2;
-        this.point3 = point3;
-        this.point4 = point4;
+        quad = setQuad(point1, point2, point3, point4);
+        this.point1 = quad.get(0);
+        this.point2 = quad.get(1);
+        this.point3 = quad.get(2);
+        this.point4 = quad.get(3);
+
     }
 
     public Point getPoint1() {
@@ -34,25 +40,55 @@ public abstract class Quadrilateral {
         return point4;
     }
 
-    public void setPoint1(Point point) {
-        point1 = point;
-    }
-
-    public void setPoint2(Point point) {
-        point2 = point;
-    }
-
-    public void setPoint3(Point point) {
-        point3 = point;
-    }
-
-    public void setPoint4(Point point) {
-        point4 = point;
+    public LinkedList<Point> getQuad() {
+        return quad;
     }
 
     public abstract double getArea();
 
-    public abstract double getPerimeter();
+    public double getPerimeter() {
+        double segment1 = getDistance(quad.get(0), quad.get(1));
+        double segment2 = getDistance(quad.get(1), quad.get(2));
+        double segment3 = getDistance(quad.get(2), quad.get(3));
+        double segment4 = getDistance(quad.get(3), quad.get(1));
+
+        return segment1 + segment2 + segment3 + segment4;
+    }
+
+    private LinkedList setQuad(Point A, Point B, Point C, Point D) {
+        LinkedList<Point> points = new LinkedList<Point>();
+        double currentDistance;
+        double newDistance;
+        Point candidate;
+
+        points.add(A);
+        points.add(B);
+        points.add(C);
+        points.add(D);
+
+        for (int x = 0; x < points.size() - 1; x++) {
+            Point start = points.get(x);
+            Point end = points.get(x + 1);
+            for (int y = 2; y < points.size(); y++) {
+                currentDistance = getDistance(start, end);
+                newDistance = getDistance(start, points.get(y));
+
+                if (newDistance < currentDistance) {
+                    candidate = points.remove(y);
+                    points.add(x + 1, candidate);
+                }
+            }
+        }
+
+        return points;
+    }
+
+    private double getDistance(Point pointA, Point pointB) {
+        double distanceX = pointA.getX() - pointB.getX();
+        double distanceY = pointA.getY() - pointB.getY();
+
+        return Math.sqrt(Math.pow(distanceX, 2) + Math.pow(distanceY, 2));
+    }
 
     @Override
     public String toString() {
